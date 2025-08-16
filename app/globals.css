@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-orange-col: #FA6E00;
+  --color-gray-col: #1e1e1e;
+  --color-background: black;
+  --color-foreground: white;
+}
+
+
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+}
