@@ -56,6 +56,12 @@ export default function LoginPage() {
         >
           Login
         </button>
+
+        {/* Demo Note */}
+        <p className="text-sm text-gray-400 mt-4">
+          <strong>Note:</strong> Email: <span className="text-orange-400">shakeel@gmail.com</span> | 
+          Password: <span className="text-orange-400">shakeel123</span>
+        </p>
       </form>
     </div>
   );
