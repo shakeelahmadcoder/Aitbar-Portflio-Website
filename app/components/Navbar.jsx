@@ -36,7 +36,7 @@ export default function Navbar() {
       {/* Desktop Navbar */}
       <motion.nav
         className={`
-          px-6 sm:px-20 mx-auto hidden sm:flex items-center justify-between py-4 fixed top-0 left-0 w-full z-50 transition-colors duration-500
+          px-6 sm:px-28 mx-auto hidden sm:flex items-center justify-between py-4 fixed top-0 left-0 w-full z-50 transition-colors duration-500
           ${scrolled
             ? "bg-gray-800/40 backdrop-blur-md text-white shadow-md"
             : "bg-transparent text-gray-400"}

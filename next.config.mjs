@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    domains: ["res.cloudinary.com"], // ✅ Cloudinary domain
+  },
+};
 
-export default nextConfig;
+export default nextConfig; // ✅ ES Module export
